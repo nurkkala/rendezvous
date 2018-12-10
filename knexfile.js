@@ -2,9 +2,10 @@ module.exports = {
     development: {
         client: 'pg',
         connection: {
-            database: 'rendezvous',
+            host: 'localhost',
             user: 'tom',
-            password: ''
+            password: '',
+            database: 'rendezvous'
         },
         pool: {
             min: 2,
